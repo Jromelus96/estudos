@@ -4,8 +4,10 @@ var1 = 123 # variavel intreira(número inteiro)
 var2 = 123,99 # variavel float(número decimal de ponto flutuante)
 var3 = "700" # variavel string(textual)
 
-#Vou executar uma operação para mostrar a variável boo
+#Vou executar uma operação para mostrar a variável bool
 x = 2
 y = 8
 print(f"{var1}\n{var2}\n{var3}")
 print(x == y) # variavel bool(verrdadeiro ou false)
+#como converter de inteiro para string,como converter de string para inteiro,
+# Dê exemplos de float,Dê exemplos de boolean
