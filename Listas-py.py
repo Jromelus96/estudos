@@ -9,5 +9,5 @@ minha_lista1= [1, 2, 3, 4, 5] # uma lista de numeros inteiros
 
 minha_lista2 = [123, "Abacaxi", "por", 15.99, True] # uma lista com varias tipos de variaveis
 
-git addinha_lista1)
+print(minha_lista1)
 print(minha_lista2)
