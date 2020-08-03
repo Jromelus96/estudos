@@ -1,7 +1,7 @@
 # O que é um dicionário em python? e como criar um dicionário em python?
 """ Um {Dicionario} consiste em uma chave e depois emum valor associado.
 esse valor pode ser quase qualquer tipo objeto em Python
-criamos o dicionário com parênteses {}
+criamos o dicionário com Chaves {}
 """
 
 dico = {1: "Merlin", 2: "Lancelot", 3: "Perceval"}
