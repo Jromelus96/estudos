@@ -1,0 +1,8 @@
+Agua Mineral
+Agua Coco
+Aguardente
+Cerveja
+Refresco
+Refrigerante
+Suco / Ades
+Vinho
