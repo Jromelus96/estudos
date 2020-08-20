@@ -8,3 +8,4 @@ for linha in abc:
     quebra = linha.strip().rstrip()
     dic[quebra[0]] = [quebra[1], quebra[2], quebra[3]]
     print(dic, end="")
+
