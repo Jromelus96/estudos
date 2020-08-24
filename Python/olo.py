@@ -1,4 +1,4 @@
-arq = open("abc.txt", "w+")
+arq = open("../Txt/abc.txt", "w+")
 arq.write("Linha o\n")
 arq.write("Linha 1\n")
 arq.write("Linha 2\n")
