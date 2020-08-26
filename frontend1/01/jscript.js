@@ -1,5 +1,5 @@
-alert("My First JavaScript").innerHTML = "demo";
+alert("My First JavaScript !!!!")
 
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
+  alert("demo") = "Paragraph changed."
 }
