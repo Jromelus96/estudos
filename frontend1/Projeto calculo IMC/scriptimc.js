@@ -1,19 +1,14 @@
-<script type="text/javascript">
-		function IMC() {
-			var a=document.getElementById('a').value;
-			var p=document.getElementById('p').value;
-			var bmi=w/(a/100*a/100);
-			var bmio=(bmi.toFixed(2));
+var nome = prompt("Digite seu nome");
+var altura = prompt("Digite sua altura");
+var peso = prompt("Digite seu peso");
+    imc=peso/(altura*altura);
 
-			document.getElementById("resultado").innerHTML="Your IMC is " + bmio;
-}
-
-div>
-			<h2>BMI Calculator</h2>
-			<p class="text">Altura</p>
-			<input type="text" id="h">
-			<p class="text">Peso</p>
-			<input type="text" id="p">
-			<p id="resultado"></p>
-			<button id="btn" onClick="IMC()">Calculate</button>
-			<p id="info">Por favor insira altura [Cm] e peso [Kg]</p>
+		if(imc < 18.5){
+			document.write( nome +  "<h1> você esta abaixo do peso</h1>")
+		}else if(imc >18.5 && imc< 25){
+			document.write( nome +  " <h1>seu peso esta normal</h1>")
+		}else if(imc > 25 && imc < 30){
+			document.write( nome +  " <h1> Voce esta acima do peso </h1> ");
+		}else if (imc>30) {
+			document.write( nome +  " <h1>voce está com Obesidade morbida</h1> ");
+		}
