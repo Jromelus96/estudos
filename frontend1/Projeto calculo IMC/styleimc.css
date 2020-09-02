@@ -2,32 +2,64 @@ body{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-family: raleway;
+	font-family: sans-serif;
+	background-image: linear-gradient(120deg,#ff6b6b, #5f27cd);
 	min-height: 100vh;
 }
+
 
 div{
 	width: 500px;
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
+	background-color: #fff;
 	transform: translate(-50%, -50%);
 	padding: 20px;
 	border-radius: 10px;
+	box-shadow: 1px 1px 20px #ee523;
 }
 
-h2{
+h1{
+    font-family: impact;
 	font-size: 30px;
 	font-weight: 600;
 }
 
-#w, #h{
-	color: #222f3e;
-	text-align: center;
+.text{
+	text-align: left;
+	margin-left: 150px;
+}
+
+#a, #p{
+	text-align: left;
 	font-size: 20px;
 	font-weight: 200;
 	outline: none;
 	border: none;
+	background: none;
 	border-bottom: 1px solid #341f97;
 	width: 200px;
+}
+
+#result{
+    margin-top: 10px;
+
+}
+
+#btn{
+	font-family: inherit;
+	margin-top: 10px;
+	border: none;
+	color: #fff;
+	background-image: linear-gradient(120deg,#ff6b6b, #5f27cd);
+	width: 150px;
+	padding: 10px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+#info{
+	font-size: 18px;
+	font-family: inherit;
 }
