@@ -42,10 +42,6 @@ h1{
 	width: 200px;
 }
 
-#result{
-    margin-top: 10px;
-
-}
 
 #btn{
 	font-family: inherit;
@@ -57,9 +53,9 @@ h1{
 	padding: 10px;
 	border-radius: 30px;
 	cursor: pointer;
-}
+
 
 #info{
 	font-size: 18px;
-	font-family: inherit;
+	font-family: arial;
 }
