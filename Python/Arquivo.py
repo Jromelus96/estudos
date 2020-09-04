@@ -13,7 +13,7 @@
     readline(  ):        le uma linha
     readlines() :        le arquivo e amarzena em uma lista """
 
-arquivo = open("../Txt/arquivo.txt")
+arquivo = open("Txt/arquivo.txt")
 
 linhas = arquivo.readlines()
 for linha in linhas:
@@ -21,14 +21,14 @@ for linha in linhas:
 
 # Texto Completo
 
-arquivo = open("../Txt/arquivo.txt")
+arquivo = open("Txt/arquivo.txt")
 
 texto_completo = arquivo.read()
 print(texto_completo)
 
 # Vou cria um Archivo2
 
-arquivo2 = open("../Txt/arquivo2.txt", "w")
+arquivo2 = open("Txt/arquivo2.txt", "w")
 
 arquivo2.write("Isso e meu novo Archivo")
 

@@ -1,7 +1,7 @@
 
-bebidas = "/Users/Excalibugator/PycharmProjects/estudos/Bebidas.txt"
+bebidas = "C:/Users/Magic Studio/PycharmProjects/estudos/Bebidas.txt"
 
-arquivo = open(bebidas, "r")
+arquivo = open("Bebidas.txt", "r")
 
 dic = {}
 for linha in arquivo:
