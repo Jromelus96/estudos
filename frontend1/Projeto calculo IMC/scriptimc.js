@@ -13,5 +13,4 @@ function IMC(){
 	resultado = document.getElementById("result");
 	resultado.innerHTML = text;
 
-}
-
+fun
