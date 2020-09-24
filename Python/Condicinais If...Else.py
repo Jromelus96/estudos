@@ -5,7 +5,6 @@
                              condicao for atendida
                            - Avalia se condicao e True ou False."""
 
-
 x = 5
 y = 5000
 

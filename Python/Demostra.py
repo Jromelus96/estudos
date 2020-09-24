@@ -1,3 +1,4 @@
+print
 #Vou criar várias variáveis
 
 nome = "Junior Leon Romelus"
