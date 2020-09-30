@@ -19,3 +19,4 @@ if(conn):
     cur.close()
     conn.close()
     print("Postgres esta fechado")
+
