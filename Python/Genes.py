@@ -4,7 +4,7 @@ conn = psycopg2.connect(f"dbname='Genes' user='postgres' "
                             f"host='localhost' password='Mcherving18'")
 cur = conn.cursor()
 
-query = "select * from dados"
+query = "select id from dados"
 cur.execute(query)
 resultado = cur.fetchall()
 print(resultado)
